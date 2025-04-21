@@ -85,12 +85,17 @@ span{
     align-items: center;
 }
 
-.home nav > h2{
+.home nav .clock{
 
     color: var(--main-color);
     z-index: 1000;
+    width: 250px;
+    font-size: 30px;
+    
     
 }
+
+
 
 nav ul li{
 
@@ -123,6 +128,21 @@ nav ul li a:hover{
     transition: 0.4s ease-in;
     border: 2px solid var(--main-color);
     
+}
+
+.btns{
+    display: block;
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: var(--light-color);
+    font-weight: bold;
+    border-radius: 30px;
+    width: 150px !important;
+    height: 50px !important;
+    line-height: 50px ;
+    text-align: center;
+    border: 2px solid var(--main-color);
+    margin: 0 auto;
 }
 
 .btn:hover{
@@ -570,6 +590,21 @@ h3{
         padding-top: 50px;
     }
 
+    .btns{
+        display: block;
+        background-color: var(--main-color);
+        text-decoration: none;
+        color: var(--light-color);
+        font-weight: bold;
+        border-radius: 30px;
+        width: 140px !important;
+        height: 40px !important;
+        line-height: 40px ;
+        text-align: center;
+        border: 2px solid var(--main-color);
+        margin: 0 auto;
+    }
+
 
     /***************** about*********************/
 
@@ -608,10 +643,7 @@ h3{
         margin: 0 0 20px 0
     }
 
-    .services .box .card{
-
-        
-    }
+    
 
 
 
@@ -1001,8 +1033,9 @@ h3{
 
     width: 70px;
     height: 30px;
-    text-align: center;
-    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 3px;
     cursor: pointer;
     background-color: white;

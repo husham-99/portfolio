@@ -338,7 +338,7 @@ document.addEventListener('scroll', function(){
 function isINView(element){
 
     const rect = element.getBoundingClientRect();
-    return rect.bottom > 0 && rect.top < (window.innerHeight - 150);
+    return rect.bottom > 0 && rect.top < (window.innerHeight - 100) 
 }
 
 

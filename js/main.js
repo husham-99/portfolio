@@ -302,3 +302,47 @@ window.onscroll = function(){
         })
     }
 }
+
+
+
+
+/////// hide
+
+let box = document.querySelectorAll('.box .card')
+let skill = document.querySelectorAll('.skills .skill-box')
+
+
+document.addEventListener('scroll', function(){
+
+    box.forEach(card =>{
+
+        if(isINView(card)){
+
+            card.classList.add('visible')
+        }
+    })
+
+    skill.forEach(box =>{
+
+        if(isINView(box)){
+
+            box.classList.add('visible')
+            
+        }
+    })
+
+   
+})
+
+
+function isINView(element){
+
+    const rect = element.getBoundingClientRect();
+    return rect.bottom > 0 && rect.top < (window.innerHeight - 150);
+}
+
+
+
+  
+  
+  

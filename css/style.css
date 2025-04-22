@@ -16,12 +16,22 @@
     --padding: 8%;
 }
 
+
+  
+
 body{
 
     
     font-family: "Tajawal", sans-serif;
     font-size: 16px;
-    color: var(--light-color)
+    color: var(--light-color);
+    
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
 }
 
 p{
@@ -40,6 +50,21 @@ h5{
     letter-spacing: 2px;
 }
 
+/****************************** hide ****************************** */
+
+.hide{
+
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 1.5s ease;
+}
+
+.visible{
+
+    transform: translateY(0);
+    opacity: 1;
+}
+
 
 
 /********************** home secton*********************/
@@ -55,7 +80,7 @@ h5{
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    transition: 1s ease-in-out;
+    /* transition: 1s ease-in-out; */
 
 }
 
@@ -90,7 +115,7 @@ span{
     color: var(--main-color);
     z-index: 1000;
     width: 250px;
-    font-size: 30px;
+    font-size: 35px;
     
     
 }
@@ -142,9 +167,10 @@ nav ul li a:hover{
     line-height: 50px ;
     text-align: center;
     border: 2px solid var(--main-color);
-    margin: 0 auto;
+    transition: 0.4s ease-in;
+    
 }
-
+.btns:hover,
 .btn:hover{
 
     background-color: transparent;
@@ -479,7 +505,7 @@ h3{
 
         
         position: absolute;
-        background-color: #3333338e;
+        background-color: #33333393;
         top: 0;
         left: -250px;
         width: 250px;
@@ -598,11 +624,12 @@ h3{
         font-weight: bold;
         border-radius: 30px;
         width: 140px !important;
-        height: 40px !important;
-        line-height: 40px ;
+        height: 35px !important;
+        line-height: 35px ;
         text-align: center;
         border: 2px solid var(--main-color);
         margin: 0 auto;
+        font-size: 14px ;
     }
 
 
@@ -723,7 +750,20 @@ h3{
 
     .home .container-image{
 
-        display: none;
+        display: block;
+        text-align: right;
+        
+        
+    }
+
+    .home .container-image img{
+
+        width: 300px
+    }
+
+    .home .container-text{
+
+        text-align: left;
     }
 
     
@@ -775,7 +815,7 @@ h3{
 
     .home .container-text{
 
-        text-align: center;
+        text-align: left;
     }
 
     .home .social a i{
@@ -788,8 +828,7 @@ h3{
         display: flex;
         justify-content: space-between;
         width: 80%;
-        margin: 0 auto;
-        padding-top: 50px;
+        
     }
 
 
@@ -852,7 +891,7 @@ h3{
         
     }
 
-    .skills h1{
+    .skills h2{
 
         font-size: 2rem;
         margin: 0 0 20px 0

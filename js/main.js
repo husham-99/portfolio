@@ -64,7 +64,15 @@ function openCloseNav(){
     let nav = document.getElementById('nav')
     let menu = document.getElementById('menu')
     
-    
+    document.addEventListener('scroll', function (){
+
+        nav.classList.remove('active')
+        menu.classList.remove('active')
+        document.querySelector('.overlay').style.display = "none"
+        document.querySelector('.clock').style.visibility = "visible"
+        document.querySelector('.setting-box').style.visibility = "visible"
+
+    })
     menu.addEventListener('click', function(e){
 
         // stop propagation

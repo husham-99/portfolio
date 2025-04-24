@@ -264,6 +264,11 @@ h3{
     
 }
 
+.about h1{
+
+    font-size: 2.2rem;
+}
+
 .about .container-img{
 
     width: 45%;
@@ -328,6 +333,8 @@ h3{
 .services h1{
 
     margin-bottom: 50px;
+    text-align: left;
+    font-size: 2.2rem;
 }
 
 /******************* skills ******************/
@@ -408,6 +415,11 @@ h3{
     
     text-align: center;
     
+}
+
+footer h2{
+
+    font-size: 1.5rem;
 }
 
 
@@ -758,7 +770,7 @@ h3{
 
     .home .container-image img{
 
-        width: 300px
+        width: 200px
     }
 
     .home .container-text{

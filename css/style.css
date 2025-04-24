@@ -752,12 +752,13 @@ footer h2{
 
         flex-direction: column;
         align-items: center;
-        gap: 35px;
+        gap: 30px;
     }
 
     .contact .contact-item{
 
         align-items: center;
+        justify-content: center;
     }
 
     .contact .contact-item p{

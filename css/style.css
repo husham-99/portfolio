@@ -756,9 +756,9 @@ footer h2{
     }
 
     .contact .contact-item{
-
-        align-items: center;
+        
         justify-content: center;
+        align-items: center;
     }
 
     .contact .contact-item p{
@@ -768,7 +768,7 @@ footer h2{
 
     .contact .contact-item i{
 
-        font-size: 16px;
+        font-size: 18px;
     }
 
 

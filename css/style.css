@@ -408,6 +408,7 @@ h3{
 
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -755,11 +756,7 @@ footer h2{
         gap: 30px;
     }
 
-    .contact .contact-item{
-        
-        justify-content: center;
-        align-items: center;
-    }
+    
 
     .contact .contact-item p{
 

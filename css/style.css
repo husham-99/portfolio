@@ -22,7 +22,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 html {
@@ -309,10 +309,10 @@ h3 {
 .contact {
   height: 200px;
   width: 100%;
-  background-image: url(../images/29.jpg);
+  /* background-image: url(../images/29.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   background-attachment: fixed;
   display: flex;
   justify-content: center;
